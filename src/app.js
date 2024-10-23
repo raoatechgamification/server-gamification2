@@ -46,6 +46,16 @@ app.get("/", (req, res) => {
     message: "Welcome to Gamification API V1",
   });
 });
+app.get("/api/r", (req, res) =>{
+ 
+  res.send({message: "success"})
+})
+
+app.get("/t", (req, res) =>{
+    
+  res.send({message: "new commit subscriptionsssss"})
+})
+
 
 app.use("/api/v1", routes);
 
