@@ -1,0 +1,4 @@
+2024-10-23 14:17:23 [info]: POST /api/v1/auth/user/login 500 - Request Body: {"email":"seun10050@gmail.com","password":"Omodaratan05$#"}
+2024-10-23 14:22:59 [info]: POST /user/login 400 - Request Body: {"email":"seun10050@gmail.com","password":"Omodaratan05$#"}
+2024-10-23 14:23:09 [info]: POST /user/register 201 - Request Body: {"email":"seun10050@gmail.com","password":"Omodaratan05$#","username":"Omodaratan1005"}
+2024-10-23 14:24:23 [info]: POST /user/login 200 - Request Body: {"email":"seun10050@gmail.com","password":"Omodaratan05$#"}
